@@ -1,6 +1,41 @@
 html,
 body,
 #root {
-    height: 100%;
-    margin: 0;
+    max-width: 700px;
+    height: 400px;
+    margin: auto;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    flex-wrap: wrap;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+
+.d1{
+    width: 340px;
+    height: 80px;
+    background: #DAA520;
+
+}
+.d2 {
+    width: 340px;
+    height: 80px;
+    background: #DAA520;
+}
+.d3 {
+    width: 340px;
+    height: 200px;
+    background: #DAA520;
+}
+.d4 {
+    width: 340px;
+    height: 200px;
+    background: #DAA520;
+}
+.d5 {
+    width: 340px;
+    height: 80px;
+    background: #DAA520;
 }
